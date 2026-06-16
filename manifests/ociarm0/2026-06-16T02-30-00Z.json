@@ -1,0 +1,11 @@
+{
+  "host_id": "ociarm0",
+  "timestamp_utc": "2026-06-16T02-30-00Z",
+  "encrypted_archive": "backups/ociarm0/2026-06-16T02-30-00Z.tar.zst.age",
+  "encrypted_archive_sha256": "8032b5f0444591e98906d2fcd3abe9c296b344486b5642d108c2b0cf9db23f82",
+  "included_paths": [
+    "/home/xwzy/workspace",
+    "/etc/hostname",
+    "/etc/hosts"
+  ]
+}

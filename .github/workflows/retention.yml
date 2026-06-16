@@ -1,0 +1,49 @@
+name: Retain latest backups
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  retain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Keep latest three backups per host
+        shell: bash
+        run: |
+          set -euo pipefail
+          changed=0
+          shopt -s nullglob
+          for host_dir in backups/*; do
+            [ -d "$host_dir" ] || continue
+            host="${host_dir#backups/}"
+            mapfile -t archives < <(ls -1 "$host_dir"/*.tar.zst.age 2>/dev/null | sort -r)
+            if [ "${#archives[@]}" -le 3 ]; then
+              continue
+            fi
+            for old in "${archives[@]:3}"; do
+              base="$(basename "$old" .tar.zst.age)"
+              rm -f "$old" "$host_dir/${base}.sha256" "manifests/$host/${base}.json"
+              changed=1
+            done
+            if [ "${#archives[@]}" -gt 0 ]; then
+              printf '%s\n' "${archives[0]}" > "$host_dir/latest.txt"
+              changed=1
+            fi
+          done
+          if [ "$changed" -eq 0 ]; then
+            echo "No retention changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backups manifests
+          git commit -m "Retain latest encrypted backups"
+          git push
