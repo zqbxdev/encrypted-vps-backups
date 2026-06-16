@@ -1,0 +1,31 @@
+{
+  "host_id": "ociarm0",
+  "timestamp_utc": "2026-06-16T03-27-17Z",
+  "encrypted_archive": "backups/ociarm0/2026-06-16T03-27-17Z.tar.zst.age",
+  "encrypted_archive_sha256": "7578f5a8e1e38e46268099f34c4182009e512902971f9b2e1f8fa05659980ea4",
+  "included_paths": [
+    "/etc/hostname",
+    "/etc/hosts",
+    "/usr/lib/systemd/system/code-server@.service",
+    "/home/xwzy/.config/code-server",
+    "/home/xwzy/.local/share/code-server/User",
+    "/home/xwzy/.local/share/code-server/Machine",
+    "/home/xwzy/.local/share/code-server/extensions",
+    "/home/xwzy/.local/share/code-server/coder.json",
+    "/home/xwzy/.local/share/code-server/machineid",
+    "/home/xwzy/.local/share/code-server/languagepacks.json",
+    "/home/xwzy/nginx-proxy-manager",
+    "/home/xwzy/singbox",
+    "/home/xwzy/webchat2api/docker-compose.yml",
+    "/home/xwzy/webchat2api/docker-compose.local.yml",
+    "/home/xwzy/webchat2api/docker-compose.host.yml",
+    "/home/xwzy/webchat2api/data",
+    "/home/xwzy/webchat2api-dev/docker-compose.yml",
+    "/home/xwzy/webchat2api-dev/data",
+    "/home/xwzy/open-webui/docker-compose.yml",
+    "/home/xwzy/cloudflare-ddns/.env",
+    "/home/xwzy/cloudflare-ddns/state.json",
+    "/home/xwzy/cloudflare-ddns/cf_npm_ddns.py",
+    "/home/xwzy/workspace/anybridge/.env"
+  ]
+}
