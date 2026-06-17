@@ -1,0 +1,28 @@
+{
+  "host_id": "rpi4-20231111",
+  "timestamp_utc": "2026-06-17T02-24-20Z",
+  "encrypted_archive": "backups/rpi4-20231111/2026-06-17T02-24-20Z.tar.zst.age",
+  "encrypted_archive_sha256": "a83ed8b89f58ac3e5eb1de6e3a83206ed62e4629859bac4b2e4cb46ac1b424cc",
+  "included_paths": [
+    "/etc/hostname",
+    "/etc/hosts",
+    "/etc/systemd/system/cloudflared.service",
+    "/usr/local/etc/cloudflared",
+    "/home/xwzy/coder-server/compose.yaml",
+    "/home/xwzy/coder-server/OPENCODE_RESTORE_INFO.txt",
+    "/home/xwzy/coder-server/CLIPBOARD_FIX_GUIDE.md",
+    "/home/xwzy/pi-sing-box-proxy/docker-compose.yml",
+    "/home/xwzy/pi-sing-box-proxy/sing-box/config.json",
+    "/home/xwzy/coder-server/config",
+    "/home/xwzy/coder-server/user-data/User",
+    "/home/xwzy/coder-server/user-data/Machine",
+    "/home/xwzy/coder-server/user-data/coder.json",
+    "/home/xwzy/coder-server/user-data/languagepacks.json",
+    "/home/xwzy/coder-server/user-data/serve-web-key-half",
+    "/home/xwzy/coder-server/extensions",
+    "/home/xwzy/coder-server/opencode-config",
+    "/home/xwzy/coder-server/opencode-data",
+    "/home/xwzy/coder-server/opencode-state",
+    "/home/xwzy/coder-server/clipboard-bin"
+  ]
+}
