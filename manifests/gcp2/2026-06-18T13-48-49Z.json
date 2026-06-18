@@ -1,0 +1,25 @@
+{
+  "host_id": "gcp2",
+  "timestamp_utc": "2026-06-18T13-48-49Z",
+  "encrypted_archive": "backups/gcp2/2026-06-18T13-48-49Z.tar.zst.age",
+  "encrypted_archive_sha256": "c474d2be32e3f3439e91af304c940c83bedbc020c8282f5a60013fa06d287d8e",
+  "included_paths": [
+    "/etc/hostname",
+    "/etc/hosts",
+    "/home/xwzy/CLIProxyAPI/config.yaml",
+    "/home/xwzy/CLIProxyAPI/config.yaml.before-password-change-20260617T132709Z",
+    "/home/xwzy/CLIProxyAPI/docker-compose.yml",
+    "/home/xwzy/CLIProxyAPI/auths",
+    "/home/xwzy/compose-backups-proxy-20260617T131500Z",
+    "/home/xwzy/npm/docker-compose.yml",
+    "/home/xwzy/npm/data",
+    "/home/xwzy/npm/letsencrypt",
+    "/home/xwzy/singbox/docker-compose.yml",
+    "/home/xwzy/singbox/config.json",
+    "/home/xwzy/cf-ddns/.env",
+    "/home/xwzy/cf-ddns/state.json",
+    "/home/xwzy/cf-ddns/cf_npm_ddns.py",
+    "/etc/systemd/system/komari-agent.service",
+    "/opt/komari"
+  ]
+}
