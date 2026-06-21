@@ -1,0 +1,28 @@
+{
+  "host_id": "gcp1",
+  "timestamp_utc": "2026-06-21T01-14-43Z",
+  "encrypted_archive": "backups/gcp1/2026-06-21T01-14-43Z.tar.zst.age",
+  "encrypted_archive_sha256": "d28b1ea4a678ee4251610a6c80c55d09cfd8c57aec825f88fe8e6eca1038274c",
+  "included_paths": [
+    "/etc/hostname",
+    "/etc/hosts",
+    "/home/xwzy/Bitwarden/docker-compose.yml",
+    "/home/xwzy/Bitwarden/vw-data",
+    "/home/xwzy/komari/docker-compose.yml",
+    "/home/xwzy/komari/data",
+    "/home/xwzy/npm/docker-compose.yml",
+    "/home/xwzy/npm/data",
+    "/home/xwzy/npm/letsencrypt",
+    "/home/xwzy/singbox/docker-compose.yml",
+    "/home/xwzy/singbox/config.json",
+    "/home/xwzy/cf-ddns/.env",
+    "/home/xwzy/cf-ddns/cf.env",
+    "/home/xwzy/cf-ddns/state.json",
+    "/home/xwzy/cf-ddns/records.txt",
+    "/home/xwzy/cf-ddns/last_ip.txt",
+    "/home/xwzy/cf-ddns/cf-ddns.sh",
+    "/home/xwzy/cf-ddns/cf_npm_ddns.py",
+    "/etc/systemd/system/komari-agent.service",
+    "/opt/komari"
+  ]
+}
