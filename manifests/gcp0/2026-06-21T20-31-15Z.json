@@ -1,0 +1,25 @@
+{
+  "host_id": "gcp0",
+  "timestamp_utc": "2026-06-21T20-31-15Z",
+  "encrypted_archive": "backups/gcp0/2026-06-21T20-31-15Z.tar.zst.age",
+  "encrypted_archive_sha256": "c39213ce9b2dbbf0d47a9757f0a6de8b79306b1db69dd3f5a0ae15303c9bb567",
+  "included_paths": [
+    "/etc/hostname",
+    "/etc/hosts",
+    "/home/xwzy/CLIProxyAPI/config.yaml",
+    "/home/xwzy/CLIProxyAPI/config.yaml.bak.20260616085428",
+    "/home/xwzy/CLIProxyAPI/docker-compose.yml",
+    "/home/xwzy/CLIProxyAPI/auths",
+    "/home/xwzy/CLIProxyAPI/backups",
+    "/home/xwzy/CLIProxyAPI/migrations",
+    "/home/xwzy/nginx-proxy-manager/docker-compose.yml",
+    "/home/xwzy/nginx-proxy-manager/data",
+    "/home/xwzy/nginx-proxy-manager/letsencrypt",
+    "/etc/systemd/system/komari-agent.service",
+    "/opt/komari",
+    "/etc/systemd/system/cloudflare-npm-ddns.service",
+    "/home/xwzy/cloudflare-ddns/.env",
+    "/home/xwzy/cloudflare-ddns/state.json",
+    "/home/xwzy/cloudflare-ddns/cf_npm_ddns.py"
+  ]
+}
